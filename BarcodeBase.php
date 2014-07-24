@@ -177,7 +177,7 @@ abstract class BarcodeBase
 	}
 
 
-	/**
+	/*
 	 * The raw image to allow more GD actions
 	 * @return GD Resource
 	 */
