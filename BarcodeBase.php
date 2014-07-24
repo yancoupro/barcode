@@ -175,4 +175,13 @@ abstract class BarcodeBase
 
 		return base64_encode(ob_get_clean());
 	}
+
+
+	/**
+	 * The raw image to allow more GD actions
+	 * @return GD Resource
+	 */
+	public function img() {
+		return $this->img;
+	}
 }
